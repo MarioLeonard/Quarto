@@ -1,4 +1,4 @@
-export module Piece;
+export module piece;
 import <iostream>;
 
 namespace quarto
@@ -47,12 +47,8 @@ namespace quarto
 		Body GetBody() const noexcept;
 		Shape GetShape() const noexcept;
 		Height GetHeight() const noexcept;
-		
-
-
 	};
 
 	export std::ostream& operator<<(std::ostream& os, const Piece& piece);
-
 
 }
